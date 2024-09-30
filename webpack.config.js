@@ -65,8 +65,8 @@ module.exports = (_, argv) => ({
       name: "host",
       filename: "remoteEntry.js",
       remotes: {
-        cart: "cart@https://secompp-cart.onrender.com",
-        products: "products@https://secompp-cart.onrender.com",
+        cart: "cart@https://secompp-cart.onrender.com/remoteEntry.js",
+        products: "products@https://secompp-cart.onrender.com/remoteEntry.js",
       },
       exposes: {
         "./Counter": "./src/components/Counter/Counter",
